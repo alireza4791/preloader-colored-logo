@@ -1,0 +1,29 @@
+/*For the counter to be visible I have set postion top as 30%....if its used as a preloader set it as 50%*/
+@font-face {
+    font-family: mjdinar;
+    src: url(./Mj\ Dinar\ Two\ Light.ttf);
+  }
+body {
+  background: #3a3939;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  .loader {
+    background: linear-gradient(to right, #414345, #000);
+    height: 100%;
+    width: 100vh;
+    .loader-counter {
+      h1 {
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        color: #fff;
+        font-size: 150px;
+      }
+    }
+  }
+}
