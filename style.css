@@ -1,7 +1,4 @@
 /*For the counter to be visible I have set postion top as 30%....if its used as a preloader set it as 50%*/
-@font-face {
-  font-family: mjdinar;
-  src: url(./Mj\ Dinar\ Two\ Light.ttf); }
 body {
   background: #3a3939;
   font-family: 'Orbitron', sans-serif;
